@@ -1,0 +1,75 @@
+.main-div {
+  border: 2px solid #3231315c;
+  width: 250px;
+  position: absolute;
+  top: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  box-shadow: 0px 0px 13px 3px #00000075;
+  left: 40%;
+  margin: 0;
+  background: #e0dcdca8;
+}
+
+#date {
+  font-size: 10em;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  display: flex;
+  padding: 0;
+}
+ul li {
+  list-style-type: circle;
+  list-style-position: inside;
+  width: 15px;
+  height: 60px;
+  border-radius: 10px;
+  background-image: radial-gradient(white 30%, #000000e3 40%, #aca9a9ad 70%);
+  margin: 0px 12px;
+  display: block;
+  position: relative;
+  box-shadow: 0px 4px 3px 0px #000;
+}
+.top-div {
+  position: absolute;
+  top: -50px;
+}
+.sub-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #e98e30;
+  border-radius: 17px 17px 0 0;
+}
+.year-div {
+  font-size: 30px;
+  margin-top: 30px;
+  padding: 10px 0 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#year {
+  font-size: 20px;
+}
+
+.date-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+#day {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 6px;
+  font-size: 20px;
+}
